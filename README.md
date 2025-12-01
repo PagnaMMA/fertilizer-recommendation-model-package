@@ -1,4 +1,4 @@
-# Crop Yield Prediction Model
+# Fertilizer Prediction Model
 
 A machine learning model package for predicting fertilizer.
 
@@ -6,7 +6,7 @@ A machine learning model package for predicting fertilizer.
 
 Install directly from GitHub:
 ```bash
-pip install git+https://github.com/pagnaMMA/fertilizer-recommendation-model-package.git
+pip install git+https://github.com/PagnaMMA/fertilizer-recommendation-model-package.git
 ```
 
 ## Usage

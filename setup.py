@@ -12,7 +12,7 @@ setup(
     description="A machine learning model for fertilizer recommendation",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/pagnaMMA/fertilizer-recommendation-model-package",
+    url="https://github.com/PagnaMMA/fertilizer-recommendation-model-package",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     package_data={
