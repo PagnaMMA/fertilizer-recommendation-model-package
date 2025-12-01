@@ -16,7 +16,6 @@ class FertilizerPredictor:
         
         # Loadind of the model file(s)
         model_path = os.path.join(current_dir, 'fertilizer_model_Gradient_Boosting.pkl')
-        scaler_path = os.path.join(current_dir, 'fertilizer_scaler.pkl')
         label_encoder_path = os.path.join(current_dir, 'fertilizer_label_encoder.pkl')
         soil_encoder_path = os.path.join(current_dir, 'fertilizer_soil_encoder.pkl')
         crop_encoder_path = os.path.join(current_dir, 'fertilizer_crop_encoder.pkl')
@@ -28,8 +27,6 @@ class FertilizerPredictor:
             self.model = None
         
         try:
-            scaler_path
-            self.scaler = self._load_pickle_file(scaler_path)
             label_encoder_path
             self.label_encoder = self._load_pickle_file(label_encoder_path)
             soil_encoder_path
