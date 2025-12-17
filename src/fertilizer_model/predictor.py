@@ -56,7 +56,9 @@ class FertilizerPredictor:
 
         Parameters:
         -----------
-        input_data : list (same format as predict_fertilizer)
+        input_data : list
+            Input features.
+            Temperature, Rainfall, pH, Moisture, Nitrogen, Potassium, Phosphorous, Soil Type, Crop
 
         Returns:
         --------
